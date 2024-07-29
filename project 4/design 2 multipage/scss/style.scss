@@ -1,0 +1,922 @@
+
+@use 'vars';
+
+
+body{
+    font-family: "Roboto", sans-serif;
+ 
+}
+
+header .header_section .con {
+    overflow: hidden;
+.row .sub_con{
+    display: flex;
+    justify-content: space-around;
+
+    .p1{
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        padding-left:30px;
+    }
+    .p2{
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    span{
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .socails{
+        padding-top: 10px;
+        padding-right: 40px;
+    }
+
+}
+
+
+.row .holder2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+    .logo{
+        padding-left:75px;
+    }
+}
+
+.btn1{
+    padding-right: 85px;
+    button{
+        background-color:black ;
+        width: 194px;
+        height: 40px;
+        border-radius: 5px;
+        transition: all 0.4s ease;
+
+        &:hover{
+            background-color: silver;
+            transform: scale(1.1);
+         
+        }
+        a{
+            color: vars.$white;
+            text-decoration: none;
+        }
+    }
+}
+hr{
+    margin: 0;
+}
+
+}
+
+// end of the header section
+// start of the herosection
+.hero_section {
+    background-image:url(../img/backimg1.png) ;
+    overflow: hidden;
+    width: 100%;
+    height: 900px;
+    
+    background-size: cover;
+    .con{
+        padding-top: 288px;
+        display: flex;
+        padding-left: 64px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width:560px ;
+        height: 370px;
+         .h_holder{
+            p{
+                font-size: 18px;
+                color: vars.$white;
+            }
+
+
+        }
+
+        .text_holder{
+            color: vars.$white;
+            font-size: 18px;
+           
+            h1{
+                font-size: 56px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .btn_holder{
+            
+            .btn3{
+               width: 202px;
+               height: 48px;
+               background-color:black ;
+               border-radius: 5px;
+               transition: all 0.4s ease;
+               &:hover{
+                background-color: silver;
+                transform: scale(1.1);
+             
+            }
+               a{
+                text-decoration: none;
+                 color: white;
+                 font-size: 16px;
+               }
+            }
+
+               .btn2{
+                width: 96px;
+                height: 48px;
+                background-color: transparent;
+                border: 1px solid white;
+                margin-left: 20px;
+                border-radius: 5px;
+                transition: all 0.4s ease;
+                &:hover{
+
+                    background-color: black;
+                    transform: scale(1.1);
+                }
+                a{
+                    text-decoration: none;
+                 color: white;
+                 font-size: 16px;
+                 
+                }
+               }
+            
+            
+        }
+    }
+    
+}
+
+// end of hero section
+
+// start of about section
+
+.about_section{
+    overflow: hidden;
+    
+    height: 864px;
+    .row .con{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 112px;
+
+        .text_holder{
+            width: 800px;
+            height: 364px;
+            padding-left: 64px;
+            padding-top: 130px;
+            h5{
+               font-size: 16px;
+               font-weight: 600;
+               padding-top: 16px;
+            }
+
+            h1{
+                font-size: 48px;
+                font-weight: 800;
+                padding-top: 16px;
+            }
+
+            p{
+                font-size: 18px;
+                
+            }
+
+            button{
+                width: 202px;
+               height: 48px;
+               background-color:black ;
+               margin-top:48px;
+               border-radius: 5px;
+               transition: all 0.4s ease;
+               &:hover{
+                background-color: silver;
+                transform: scale(1.1);
+               }
+               a{
+                text-decoration: none;
+                 color: white;
+                 font-size: 16px;
+               }
+
+            }
+        }
+        .img_holder{
+            padding-left: 200px;
+            
+        }
+    }
+}
+
+
+// end of about section
+
+
+// why choose us section start
+.y_choose_section{
+   height:1142px;
+   overflow: hidden;
+   background-color: vars.$off-white;
+   .row .con{
+    padding-top: 112px;
+
+   .head_holder{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+ margin-left: 550px;
+ width: 768px;
+ height: 186px;
+h5{
+    font-size: 16px;
+}
+h1{
+    font-size: 48px ;
+    font-weight: 800;
+}
+p{
+    font-size: 18px;
+}
+   }
+
+   .main_con{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+
+    .left_holder{
+        width: 303px;
+        padding-top: 50px;
+        padding-right: 50px;
+        height: 500px;
+        .left_content1{
+        width: 240px;
+        height: 234px;
+        }
+
+        .left_content2{
+            width: 240px;
+            height: 234px;
+            
+            }
+        
+    }
+
+    .right_holder{
+        width: 303px;
+        padding-top: 50px;
+        padding-left: 50px;
+        height: 500px;
+
+
+        .right_content1{
+            width: 240px;
+            height: 234px;
+            }
+    
+            .right_content2{
+                width: 240px;
+                height: 234px;
+                }
+            
+    }
+    h2{
+        font-size: 24px;
+        font-weight: 800;
+        text-align: center;
+        justify-content: center;
+    }
+    p{
+        font-size: 16px;
+        text-align: center;
+        
+        justify-content: center;
+    }
+
+   }
+
+
+   .btn_holder{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    button{  width: 202px;
+        height: 48px;
+        background-color: transparent;
+        border: 1px solid black;
+        margin-top: 48px;
+        border-radius: 5px;
+        transition: all 0.4s ease;
+        &:hover{
+            background-color: silver;
+            transform: scale(1.1);
+        }
+        
+        a{
+            text-decoration: none;
+         color: black;
+         font-size: 16px;
+         
+        }
+
+     
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        margin-top:60px;
+       span{
+        font-size: 20px;
+        
+       }
+    }
+   }
+
+   }
+
+
+
+}
+
+// why chose us end section
+.aboutdoc_section .row .con{
+    overflow: hidden;
+    height: 1414px;
+     .topic_holder{
+        text-align: center;
+        padding-top: 112px;
+
+     h5{
+        font-size: 16px;}
+     h1{
+        font-size: 56px;
+        font-weight: 800;
+         }
+     p{
+        font-size: 18px;
+        }
+     }
+
+     .doc_holder{
+        
+        .top_doc{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 80px;
+            height: 372px;
+            text-align: center; 
+            
+        .name_holder{
+           padding-top: 30px;
+
+    
+        }
+
+        
+        h2{
+            font-size: 24px;
+              
+             }
+              
+             h3{
+              font-size: 18px;
+              font-weight: 400;
+                  }
+             p{
+               font-size: 14px;
+               font-weight: 600;
+              }
+            }   
+              
+            .lowerdoc{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 80px;
+            height: 372px;
+            text-align: center; 
+            margin-top: 80px;
+            .name_holder{
+                padding-top: 30px;
+                h2{
+                    font-size: 24px;
+                      
+                     }
+                      
+                     h3{
+                      font-size: 18px;
+                      font-weight: 400;
+                          }
+                     p{
+                       font-size: 14px;
+                       font-weight: 600;
+                      }
+            }            
+              }
+    }
+    
+    .btn_holder{
+        margin-top: 100px;
+           text-align: center;
+   
+           button{
+               width: 124px;
+           height: 48px;
+           background-color: transparent;
+           border: 1px solid black;
+           margin-top: 48px;
+           border-radius: 5px;
+           transition: all 0.4s ease;
+           &:hover{
+            background-color: silver;
+            transform: scale(1.1);
+        }
+           
+           a{
+               text-decoration: none;
+            color: black;
+            font-size: 16px;
+            }
+    }
+   
+ }
+}
+
+// aboutdoc section end
+
+
+// start of deparment section
+.department_section{
+    height:1346px ;
+    background-color: vars.$off-white;
+    .row .con{
+
+        .topic_holder{
+            text-align: center;
+            line-height:70px;
+            padding-top: 112px;
+            h1{
+                padding-top: 20px;
+                
+            }
+
+        }
+        .card_holder {
+        .upper_card{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            
+           
+            height: 338px;
+            .card1{
+                width: 296px;
+                height: 338px;
+                // padding-top: 50px;
+                border-radius: 5px;
+                background-color: vars.$white;
+                img{
+                    padding-top: 24px;}
+                h4{
+                    padding-top: 24px;
+                }
+
+                p{
+                    line-height: 24px;
+                }
+                a{
+                    text-decoration: none;
+                    padding-top: 24px;
+                    color: black;
+                    span{
+                        font-size: 20px;
+                        
+                    }
+
+                }
+
+                
+            }
+        }
+        .lower_card{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 70px;
+            text-align: center;
+            
+           
+            height: 338px;
+            .card1{
+                width: 296px;
+                height: 338px;
+                // padding-top: 50px;
+                background-color: vars.$white;
+                border-radius: 5px;
+                img{
+                    padding-top: 24px;}
+                h4{
+                    padding-top: 24px;
+                }
+
+                p{
+                    line-height: 24px;
+                }
+                a{
+                    text-decoration: none;
+                    padding-top: 24px;
+                    color: black;
+                    span{
+                        font-size: 20px;
+                        
+                    }
+
+                }
+            }
+
+        }
+     }
+     .btn_holder{
+        margin-top: 100px;
+           text-align: center;
+   
+           button{
+               width: 124px;
+           height: 48px;
+           background-color: transparent;
+           border: 1px solid black;
+           margin-top: 48px;
+           transition: all 0.4s ease;
+           border-radius: 5px;
+           &:hover{
+            background-color: silver;
+            transform: scale(1.1);
+        }
+           
+           a{
+               text-decoration: none;
+            color: black;
+            font-size: 16px;
+           
+            }
+    }
+   
+ }
+    }
+}
+
+// end of deapartment section 
+// start of contact section
+
+.contact_section{
+    height: 1062px;
+    .row .con{
+        padding-top: 112px;
+     
+
+        .contactform{
+            h1{
+                font-size: 48px;
+                padding-top: 10px;
+            }
+            p{
+                padding-top: 10px;
+            }
+
+        
+           
+
+        }
+        .btn_holder{
+            button{
+                background-color:black ;
+                width: 99px;
+                height: 46px;
+                border-radius: 5px;
+                transition: all 0.4s ease;
+                &:hover{
+                    background-color: silver;
+                    transform: scale(1.1);
+                }
+                a{
+                    color: vars.$white;
+                    text-decoration: none;
+                }
+
+            }
+        }
+        
+    }
+  
+}
+
+// end of .contact_section
+
+// start of help section
+.help_section{
+    height:446px;
+    background-color: vars.$off-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .row .con{
+        
+       
+        
+
+
+        .holder_main{
+            width: 1400px;
+            height: 222px;
+            border: 2px solid black;
+            display: flex;
+  justify-content: center;
+  align-items: center;
+            
+            .text_holder{
+                width: 950px;
+                height: 126px;
+                h1{
+                   font-size: 40px;
+                   font-weight: 800;
+                }
+                p{
+                    font-size: 14px;
+                    padding-top: 25px;
+                    
+                }
+
+                a{
+                   color: black;
+                   padding-bottom: 10px;
+                }
+            }
+
+            .btn_holder{
+               button{
+                background-color:black ;
+                width: 202px;
+                height: 48px;
+                border-radius: 5px;
+                transition: all 0.4s ease;
+                &:hover{
+                    background-color: silver;
+                    transform: scale(1.1);
+                }
+                a{
+                    color: vars.$white;
+                    text-decoration: none;
+                }
+
+
+               }
+                
+            }
+        }
+    }
+}
+
+// end of help section
+
+// start of testiominal section
+.testionmal_section{
+    height: 540.89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .holder_main{
+        width: 1312px;
+        height:316.89px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img_holder{
+        margin-bottom: 50px;
+
+        }
+
+        .text_holder{
+            width: 768px;
+            height: 102px;
+
+        }
+
+        .test{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:30px;
+        }
+       
+    }
+}
+
+
+// end of testinomal section
+
+
+// start of message section
+.testnomal_section{
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: vars.$off-white;
+    .row .con .main_holder{
+        width: 768px; 
+        height: 258px;
+        
+        .text_holder{
+            width: 768px;
+            height: 136px;
+           
+            h1{
+                font-size: 48px;
+                font-weight: 800;
+            }
+            p{
+                font-size: 18px;
+                padding-top: 24px;
+                text-align: center;
+            }
+        }
+
+        
+        .btn_holder{
+            padding-top: 24px;
+            padding-left: 35px;
+            input{
+                width: 394px;
+                height: 48px;
+
+            }
+
+            button{
+                margin-left: 20px;
+
+                background-color:black ;
+                width: 103px;
+                height: 48px;
+                border-radius: 5px;
+                transition: all 0.4s ease;
+                &:hover{
+                    background-color: silver;
+                    transform: scale(1.1);
+                }
+                a{
+                    color: vars.$white;
+                    text-decoration: none;
+                }
+
+            }
+            p{
+                font-size: 18px;
+                padding-top: 24px;
+            }
+        }
+
+    }
+}
+
+// end of message section
+
+
+
+// start of footer section
+
+.footer-section {
+    .con {
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+      padding: 80px 64px 0px;
+  
+      .upper_holder {
+        display: flex;
+        gap: 128px;
+        padding: 10px;
+  
+        .holder1 {
+          display: flex;
+          flex-direction: column;
+          width: 35%;
+          gap: 24px;
+  
+          .content_holder {
+            .sub_holder {
+              .g-3 {
+                .col-auto {
+                  .form-control {
+                    width: 365px;
+                    height: 48px;
+                  }
+  
+                  .mb-3 {
+                    width: 119px;
+                    height: 48px;
+                    transition: all 0.4s ease;
+  
+                    &:hover{
+                        background-color: silver;
+                        transform: scale(1.1);
+                        color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+  
+        .holder2 {
+          display: flex;
+          justify-content: space-evenly;
+          width: 65%;
+          gap: 30px;
+  
+          .about {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            gap: 20px;
+          }
+  
+          .services {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            gap: 20px;
+          }
+  
+          .followus {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+  
+            .followus-head {
+              margin-bottom: 20px;
+            }
+  
+            .icon {
+              display: flex;
+              gap: 12px;
+  
+              .iconlogo {
+                width: 20px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+  
+      .lowersect {
+        .con {
+          padding: 80px;
+  
+          .lowercontent {
+            border-top: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+  
+            .copyright {
+              width: 70%;
+              margin: 20px 0px 0px;
+              padding: 20px 0px 0px;
+            }
+            .lord {
+              width: 30%;
+              display: flex;
+              justify-content: space-between;
+              margin: 20px 0px 0px;
+              padding: 20px 0px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+// end of footer section
+
+
+        
+
+
+
+
+
+
+
